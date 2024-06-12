@@ -1,0 +1,27 @@
+:host {
+    position: absolute;
+}
+
+.tile {
+    width: 50px;
+    height: 20px;
+
+    // TODO think about shadows
+    // box-shadow: #000 1px 1px 5px inset;
+
+    &.type-1 {
+        background-color: #b68b17;
+    }
+    &.type-2 {
+        background-color: #17b659;
+    }
+    &.type-3 {
+        background-color: #1741b6;
+    }
+    &.type-4 {
+        background-color: #b617ae;
+    }
+    &.type-5 {
+        background-color: #b6174c;
+    }
+}

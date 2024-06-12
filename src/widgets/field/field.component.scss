@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+
+:host {
+    position: relative;
+    display: block;
+    margin: 20px;
+}
+    
+.field {
+    background-color: $main_color;
+}
