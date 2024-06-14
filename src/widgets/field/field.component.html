@@ -2,6 +2,10 @@
     class="field" 
     #field
 
-    [style.width]="fieldWidth"
-    [style.height]="fieldHeight"
+    [style.width]="fieldWidth | convert"
+    [style.height]="fieldHeight | convert"
 ></div>
+
+<ark-raquet #raquet [top]="raquetTop | convert" [pathLength]="raquetPathLength"></ark-raquet>
+
+<ark-ball></ark-ball>

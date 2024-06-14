@@ -44,7 +44,7 @@ export class TilesFactory {
     }
 }
 
-type ElementSize = {
+export type ElementSize = {
     width: number; 
     height: number;
 };
